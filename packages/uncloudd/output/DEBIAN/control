@@ -1,13 +1,13 @@
 Section: utils
 Priority: optional
-Maintainer: Dario Griffo <dariogriffo@gmail.com>
+Maintainer: Fengnan Gao <gao.fengnan@gmail.com>
 Vcs-Git: https://github.com/psviderski/uncloud
 Homepage: https://uncloud.run
 Package: uncloudd
 Depends: docker-ce | docker.io, containerd.io | containerd
 Conflicts: uncloud-corrosion
 Pre-Depends: adduser
-Version: uncloud_VERSION-BUILD_VERSION~griffo
+Version: uncloud_VERSION-BUILD_VERSION~gaofn
 Architecture: SUPPORTED_ARCHITECTURES
 Description: Uncloud Daemon
  Lightweight clustering and container orchestration tool that lets you deploy and

@@ -40,8 +40,8 @@ build_architecture() {
 
     # One uncloud and one uncloudd per architecture for every suite: upstream
     # ships one static binary each, so only the old ~<suite> version suffix ever
-    # differed. The fixed ~griffo keeps them below the distro's own build.
-    FULL_VERSION="$uncloud_VERSION-${BUILD_VERSION}~griffo_${build_arch}"
+    # differed. The fixed ~gaofn keeps them below the distro's own build.
+    FULL_VERSION="$uncloud_VERSION-${BUILD_VERSION}~gaofn_${build_arch}"
     echo "  Building uncloud $FULL_VERSION"
 
     rm -f "uc_linux_${release_arch}.tar.gz"
